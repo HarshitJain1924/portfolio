@@ -156,105 +156,129 @@ const skillSet = {
     {
       name: "HTML",
       imgPath: "/images/logos/html.svg",
+      learningRating: 5,
     },
     {
       name: "CSS",
       imgPath: "/images/logos/css.svg",
+      learningRating: 5,
     },
     {
       name: "React",
       imgPath: "/images/logos/react.png",
+      learningRating: 4,
     },
     {
       name: "Vite",
       imgPath: "/images/logos/vite.svg",
+      learningRating: 4,
     },
     {
       name: "Tailwind CSS",
       imgPath: "/images/logos/tailwind.svg",
+      learningRating: 4,
     },
     {
       name: "Next.js",
       imgPath: "/images/logos/nextjs.svg",
+      learningRating: 4,
     },
   ],
   backend: [
     {
       name: "Python",
       imgPath: "/images/logos/python.svg",
+      learningRating: 4,
     },
     {
       name: "Express.js",
       imgPath: "/images/logos/express.svg",
+      learningRating: 4,
     },
     {
       name: "Node.js",
       imgPath: "/images/logos/node.png",
+      learningRating: 4,
     },
     {
       name: "MongoDB",
       imgPath: "/images/logos/mongodb.svg",
+      learningRating: 3,
     },
     {
       name: "MySQL",
       imgPath: "/images/logos/mysql.svg",
+      learningRating: 4,
     },
   ],
   coding: [
     {
       name: "JavaScript",
       imgPath: "/images/logos/javascript.svg",
+      learningRating: 4,
     },
     {
       name: "TypeScript",
       imgPath: "/images/logos/typescript.svg",
+      learningRating: 0,
     },
     {
       name: "C++",
       imgPath: "/images/logos/cplusplus.svg",
+      learningRating: 4,
     },
   ],
   tools: [
     {
       name: "Git",
       imgPath: "/images/logos/git.svg",
+      learningRating: 4,
     },
     {
       name: "Docker",
       imgPath: "/images/logos/docker.svg",
+      learningRating: 0,
     },
     {
       name: "Figma",
       imgPath: "/images/logos/figma.svg",
+      learningRating: 0,
     },
     {
       name: "Postman",
       imgPath: "/images/logos/postman.svg",
+      learningRating: 4,
     },
     {
       name: "VS Code",
       imgPath: "/images/logos/vs-code.svg",
+      learningRating: 5,
     },
     {
       name: "Vercel",
       imgPath: "/images/logos/vercel.svg",
+      learningRating: 4,
     },
     {
       name: "Netlify",
       imgPath: "/images/logos/netlify.svg",
+      learningRating: 4,
     },
     {
       name: "npm",
       imgPath: "/images/logos/npm.svg",
+      learningRating: 4,
     },
     {
       name: "GitHub",
       imgPath: "/images/logos/github.svg",
+      learningRating: 4,
     },
     {
       name: "ChatGPT",
       imgPath: "/images/logos/chatgpt.png",
-    }
+      learningRating: 4,
+    },
   ],
 };
 

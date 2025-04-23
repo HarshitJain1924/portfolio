@@ -45,6 +45,25 @@ const TechStackAndSkills = () => {
           className="w-16 h-16 object-contain mb-4"
         />
         <h2 className="text-lg font-semibold text-white">{skill.name}</h2>
+        <div className="flex gap-2 mt-2">
+          {skill.learningRating ? (
+            <div className="flex flex-col items-center">
+              <span className="text-sm text-gray-400">Rating</span>
+              <div className="flex">
+                {[...Array(skill.learningRating)].map((_, i) => (
+                  <span key={i} className="text-yellow-500">★</span>
+                ))}
+                {[...Array(5 - skill.learningRating)].map((_, i) => (
+                  <span key={i} className="text-gray-500">★</span>
+                ))}
+              </div>
+            </div>
+          ) : (
+            <div className="px-2 py-1 flex items-center justify-center border-1 border-green-500 rounded-full">
+              <span className="text-lg font-bold text-green-500">Learning</span>
+            </div>
+          )}
+        </div>
       </div>
     ));
   };

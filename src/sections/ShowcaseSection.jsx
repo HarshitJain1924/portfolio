@@ -3,6 +3,8 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 import TitleHeader from '../components/TitleHeader';
+import { FaGithub } from "react-icons/fa";
+import { VscLiveShare } from "react-icons/vsc";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -54,11 +56,15 @@ const AppShowcase = () => {
         <div id="work" ref={sectionRef} className="app-showcase">
           <div className="w-full">
             <div className="showcaselayout">
-              <div ref={rydeRef} className="first-project-wrapper">
-                <div className="image-wrapper">
-                  <img src="/images/project1.png" alt="Ryde App Interface" />
-                </div>
-                <div className="text-content">
+            <div ref={rydeRef} className="first-project-wrapper">
+            <div className="image-wrapper w-full md:w-[600px] mx-auto">
+              <img
+                src="/images/project1.png"
+                className="w-full h-auto object-contain rounded-lg"
+              />
+            </div>
+
+                <div className="text-content mt-0">
                   <h2>
                     AI PDF Note Taker - Your AI-Powered PDF Assistant
                   </h2>
@@ -72,6 +78,7 @@ const AppShowcase = () => {
                       rel="noopener noreferrer"
                       className="px-4 py-2 bg-blue-500 text-white rounded-lg shadow-lg hover:bg-blue-600 transition"
                     >
+                      <VscLiveShare className="inline-block mr-2" />
                       Live Project
                     </a>
                     <a
@@ -80,6 +87,7 @@ const AppShowcase = () => {
                       rel="noopener noreferrer"
                       className="px-4 py-2 bg-gray-800 text-white rounded-lg shadow-lg hover:bg-gray-700 transition"
                     >
+                      <FaGithub className="inline-block mr-2" />
                       GitHub
                     </a>
                   </div>
@@ -102,6 +110,7 @@ const AppShowcase = () => {
                       rel="noopener noreferrer"
                       className="px-4 py-2 bg-blue-500 text-white rounded-lg shadow-lg hover:bg-blue-600 transition"
                     >
+                      <VscLiveShare className="inline-block mr-2" />
                       Live Project
                     </a>
                     <a
@@ -110,6 +119,7 @@ const AppShowcase = () => {
                       rel="noopener noreferrer"
                       className="px-4 py-2 bg-gray-800 text-white rounded-lg shadow-lg hover:bg-gray-700 transition"
                     >
+                      <FaGithub className="inline-block mr-2" />
                       GitHub
                     </a>
                   </div>
@@ -127,6 +137,7 @@ const AppShowcase = () => {
                       rel="noopener noreferrer"
                       className="px-4 py-2 bg-blue-500 text-white rounded-lg shadow-lg hover:bg-blue-600 transition"
                     >
+                      <VscLiveShare className="inline-block mr-2" />
                       Live Project
                     </a>
                     <a
@@ -135,6 +146,7 @@ const AppShowcase = () => {
                       rel="noopener noreferrer"
                       className="px-4 py-2 bg-gray-800 text-white rounded-lg shadow-lg hover:bg-gray-700 transition"
                     >
+                      <FaGithub className="inline-block mr-2" />
                       GitHub
                     </a>
                   </div>
